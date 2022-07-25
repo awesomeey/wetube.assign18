@@ -16,4 +16,5 @@ Today we will finish making our video player! Based on today's videos implement 
 ++ TASK 외 추가한 기능
 * default video controls hide + CSS styling
 * 컨트롤러 hide/show (3초 토글)   
-: pause 상태일 땐 show 유지
+: pause 상태일 땐 show 유지   
+* keydown event 발생시마다 컨트롤러 show
