@@ -14,6 +14,7 @@ const totalTime = videoController.querySelector("#totalTime");
 const volumeBtn = videoController.querySelector("#volume");
 const volumeRange = videoController.querySelector("#volumeRange");
 const fullscreen = videoController.querySelector("#fullscreen");
+const timeLine = videoController.querySelector("#timeLine");
 
 let controllerMovementTimeout = null;
 let volumeValue = 0.5;
