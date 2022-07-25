@@ -2,7 +2,7 @@
 ** TASK 외 추가한 기능
 ** 1. default video controls hide + CSS styling
 ** 2. 컨트롤러 hide/show (3초 토글) : pause 상태일 땐 show 유지
-** 
+** 3. keydown event 발생시마다 컨트롤러 show
 */
 
 const videoSection = document.getElementById("videoSection");
@@ -57,7 +57,8 @@ const handleSound = () => {
 		video.muted = true;
 		volumeRange.value = 0;
 		volumeBtn.className = "fas fa-volume-mute";
-	}
+	};
+	handleMouseMove();
 };
 
 const handleVolume = (event) => {
@@ -92,7 +93,8 @@ const handleFullscreen = () => {
 		document.exitFullscreen();
 		videoSection.classList.remove("full");
 		fullscreen.className = "fas fa-solid fa-expand";
-	}
+	};
+	handleMouseMove();
 }
 
 const handleKeyEvent = (event) => {
