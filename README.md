@@ -1,5 +1,6 @@
 # wetube.assign18
-Created with CodeSandbox
+Created with CodeSandbox   
+> https://codesandbox.io/s/tender-visvesvaraya-q52172?file=/src/index.js
 
 # Video part Two
 * 오늘의 강의: 유튜브 클론코딩: From #11.4 to #11.11
